@@ -13,7 +13,7 @@ clean:
 
 .PHONY: install
 install:
-	cp -f firefly_demo $(TARGET_DIR)/usr/bin/
+	cp -f helloworld $(TARGET_DIR)/usr/bin/
 
 .PHONY: uninstall
 uninstall:
