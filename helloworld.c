@@ -4,5 +4,6 @@
 int main(int argc, char *argv[])
 {
         printf("Hello World!\n");
-        return 0;
+	printf("This is a remote buildroot test program.\n");        
+	return 0;
 }

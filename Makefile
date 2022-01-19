@@ -4,7 +4,7 @@ CFLAGS =
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-firefly_demo: $(OBJ)
+helloworld: $(OBJ)
 	$(CXX) -o $@ $^ $(CFLAGS)
 
 .PHONY: clean
